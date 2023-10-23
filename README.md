@@ -16,11 +16,11 @@
 > * All project phases are to be submitted to this GitHub repository. You should modify this README file to reflect the different phases of the project. In addition, you should regularly hold sprint meetings with your group. You will need to hold two to three scrum/check-in meetings with your lab TA/reader at different times in addition to the final demo.
 
 ## Project Description
- > Your project description should summarize the project you are proposing. Be sure to include:
+ > Your project description should summarize the project you are proposing.
  > * This is important to people that are struggling with deciding on a particular movie and don't know where start.
  > * Languages and tool we will be using is C++, Visual Studio Code
  > * The inputs of our project from the user will be along the lines of movie genres, movie ratings, age of user, profiles, etc. Outputs will be a list of recommended movies according to the user's interests.
- > * The features that this project provides is recommending shows or movies that are of most interest and popular shows etc. This project will have a catalog of movies that can be narrowed down using mulitple different filters such as the genre, age-appropriate movies, how old the movie is, ratings, actors, directors, etc. Movies can also be sorted according to the filters.
+ > * The features that this project provides is recommending shows or movies that are of most interest and popular shows etc. This project will have a catalog of movies that can be narrowed down using mulitple different filters such as the genre, age-appropriate movies, how old the movie is, ratings, actors, directors, etc. Movies can also be sorted according to the filters. Users can use the search bar to find specific movies and when they use the search feature, our application will recommend other movies in the same genre or movies with the same actor. 
  > This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
  > 
  > You also need to set up an empty project board using GitHub projects (board view). Make sure you add the board under your project repository. You should also have a Product Backlog and In testing columns added.
