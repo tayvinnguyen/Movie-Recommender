@@ -1,10 +1,14 @@
 #include "../header/Movie.h"
 
+
+#include <cassert>
+#include <iostream>
+
 #include <string>
 
 
 
-
+//Initialize Constructor
 Movie::Movie(std::string title, int year, std::string genre, std::string subGenre, std::string cast, std::string director, float rating){
     this->title = title;
     this->year = year;
@@ -15,6 +19,8 @@ Movie::Movie(std::string title, int year, std::string genre, std::string subGenr
     this->rating = rating;
 }
 
+
+//Setters
 void Movie::setTitle(const std::string& newTitle){
     this->title = newTitle;
 }
@@ -45,7 +51,7 @@ void Movie::setRating(float newRating){
 
 
 
-
+//Getters
 std::string Movie::getTitle() const{
     return this->title;
 }
@@ -73,3 +79,8 @@ std::string Movie::getDirector() const{
 float Movie::getRating() const{
     return this->rating;
 }
+
+
+
+//Incorporate in display method
+

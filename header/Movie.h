@@ -38,6 +38,8 @@ public:
     float getRating() const;
 
 
+    void testMovieClass();
+
 
 
 };
