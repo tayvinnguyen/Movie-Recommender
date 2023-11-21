@@ -16,7 +16,6 @@ private:
 
 
 public:
-    Movie();
     Movie(std::string title, int year, std::string genre, std::string subGenre, std::string cast, std::string director, float rating);
 
     //Setters
@@ -36,7 +35,7 @@ public:
     std::string getSubGenre() const;
     std::string getCast() const;
     std::string getDirector() const;
-    std::string getRating() const;
+    float getRating() const;
 
 
 

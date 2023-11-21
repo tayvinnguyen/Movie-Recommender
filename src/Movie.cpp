@@ -39,10 +39,37 @@ void Movie::setDirector(const std::string& newDirector){
     this->director = newDirector;
 }
 
+void Movie::setRating(float newRating){
+    this->rating = newRating;
+}
 
 
 
 
+string Movie::getTitle() const{
+    return this->title;
+}
 
+int Movie::getYear(){
+    return this->year;
+}
 
+string Movie::getGenre() const{
+    return this->genre;
+}
 
+string Movie::getSubGenre() const{
+    return this->subGenre;
+}
+
+string Movie::getCast() const{
+    return this->cast;
+}
+
+string Movie::getDirector() const{
+    return this->director;
+}
+
+float Movie::getRating() const{
+    return this->rating;
+}
