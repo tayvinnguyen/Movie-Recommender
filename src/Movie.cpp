@@ -46,7 +46,7 @@ void Movie::setRating(float newRating){
 
 
 
-string Movie::getTitle() const{
+std::string Movie::getTitle() const{
     return this->title;
 }
 
@@ -54,19 +54,19 @@ int Movie::getYear(){
     return this->year;
 }
 
-string Movie::getGenre() const{
+std::string Movie::getGenre() const{
     return this->genre;
 }
 
-string Movie::getSubGenre() const{
+std::string Movie::getSubGenre() const{
     return this->subGenre;
 }
 
-string Movie::getCast() const{
+std::string Movie::getCast() const{
     return this->cast;
 }
 
-string Movie::getDirector() const{
+std::string Movie::getDirector() const{
     return this->director;
 }
 
