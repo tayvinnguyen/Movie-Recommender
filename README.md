@@ -7,31 +7,20 @@
  * This is important to people that are struggling with deciding on a particular movie and don't know where start.
  * Languages and tool we will be using is C++, Visual Studio Code
  * The inputs of our project from the user will be along the lines of movie genres, movie ratings, age of user, profiles, etc. Outputs will be a list of recommended movies according to the user's interests.
- * The features that this project provides is recommending shows or movies that are of most interest and popular shows etc. This project will have a catalog of movies that can be narrowed down using mulitple different filters such as the genre, age-appropriate movies, how old the movie is, ratings, actors, directors, etc. Movies can also be sorted according to the filters. Users can use the search bar to find specific movies and when they use the search feature, our application will recommend other movies in the same genre or movies with the same actor. 
+ * The features that this project provides is recommending shows or movies that are of most interest and popular shows etc. This project will have a catalog of movies that can be narrowed down using mulitple different filters such as the genre, age-appropriate movies, how old the movie is, ratings, actors, directors, etc. Movies can also be sorted according to the filters. Users can use the search within the terminal to input specific movies and our program will take the input of the user and perform a search based on our external movie database, our application will recommend other movies in the same genre or movies with the same actor. 
 
- > ## Phase II
- > In addition to completing the "User Interface Specification" and "Class Diagram" sections below, you will need to:
- > * Create an "Epic" (note) for each feature. Place these epics in the `Product Backlog` column
- > * Complete your first *sprint planning* meeting to plan out the next 7 days of work.
- >   * Break down the "Epics" into smaller actionable user stories (i.e. smaller development tasks). Convert them into issues and assign them to team members. Place these in the `TODO` (aka Sprint Backlog) column.
- >   * These cards should represent roughly 7 days worth of development time for your team. Then, once the sprint is over you should be repeating these steps to plan a new sprint, taking you until your second scrum meeting with the reader in phase III.
- > * Schedule two check-ins using Calendly. You need to pick both time slots on Tuesday of week 6. The check-ins will occur on Zoom. Your entire team must be present for both check-ins.
- >   * The first check-in needs to be scheduled with your lab TA. During that meeting, you will discuss your project design/class diagram from phase II.
- >   * The second check-in should be scheduled with a reader. During that meeting you will discuss:
- >     * The tasks you are planning for the first sprint
- >     * How work will be divided between the team members
 ## User Interface Specification
- > Include a navigation diagram for your screens and the layout of each of those screens as desribed below. For all the layouts/diagrams, you can use any tool such as PowerPoint or a drawing program. (Specification requirement is adapted from [this template](https://redirect.cs.umbc.edu/~mgrass2/cmsc345/Template_UI.doc))
 
 ### Navigation Diagram
-![Movie Recommender Navigation Diagram](Navigation Diagram.png)
+![Movie Recommender Navigation Diagram](Navigation-Diagram.png)
 
 ### Screen Layouts
-> Include the layout of each of your screens. The layout should describe the screen’s major components such as menus and prompts for user inputs, expected output, and buttons (if applicable). Explain what is on the layout, and the purpose of each menu item, button, etc. If many screens share the same layout, start by describing the general layout and then list the screens that will be using that layout and the differences between each of them.
+The login menu will ask the user for their username first then password. Once they have logged in they will be directed to the Catalog of Movies where we can see the latest movies that were released. The Catalog acts more like a menu than actually recommending movies, as such we can get to the logout, search bar, filter, and recommended movies. The logout option will logout the user and take them back to the login screen. The search bar will just allow the user to type into the terminal and search for movies directly. The Filter Movies option will ask the user to choose to filter by rating, directors, genres, quality, and trending. The recommended movies option will recommend movies to the user if they have preferred options, if not then it will automatically recommend trending movies. The user will be able to select a movie to see a longer description of that movie according to all the available filters.
 
 ## Class Diagram
- > Include a **class diagram(s)** for your project and a **description** of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper UML notation (as discussed in the course slides).
- 
+![UML Diagram for Movie Recommender System](UML-Diagram.png)
+For this system, we are implementing a simple authentication/login menu along with multiple avenues of searching/finding movies recommended by the system; some of these include search by director, similar genre, and actor. In order to develop this system, the diagram depicted here is necessary in order to visualize the required classes of our system. Derived classes of actor(s) and director(s) need to be included for us to be able to search the list for these objects. The movies object would need to hold the title, release year (this is another one of our search filters), genre, cast and director; these attributes are held within the class. An efficient data structure would need to be used to hold the database of movies -- the list is put there temporarily. If we are to use an open-source database for our movie list, searching would take any possibility of time, so implementation of an efficient searching algorithm would be necessary.
+
  > ## Phase III
  > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on Zoom and should be conducted by Wednesday of week 8.
  
