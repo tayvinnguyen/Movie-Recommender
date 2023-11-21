@@ -50,7 +50,7 @@ std::string Movie::getTitle() const{
     return this->title;
 }
 
-int Movie::getYear(){
+int Movie::getYear() const{
     return this->year;
 }
 
