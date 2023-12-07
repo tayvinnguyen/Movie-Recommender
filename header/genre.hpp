@@ -1,7 +1,7 @@
 #ifndef GENRE_HPP
 #define GENRE_HPP
 
-enum class Genre : unint8_t {
+enum class Genre : uint8_t {
     DRAMA,
     COMEDY,
     ACTION,
