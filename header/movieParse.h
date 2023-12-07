@@ -6,14 +6,14 @@
 #include <string>
 
 class MovieParse {
+private:
+    std::vector<Movie> movies;
+
 public:
     std::vector<Movie> parse(const std::string& filename);
     const std::vector<Movie>& getMovies() const; 
 
     ~MovieParse();
-
-private:
-    std::vector<Movie> movies;
 };
 
 #endif  //MOVIEPARSE_H
