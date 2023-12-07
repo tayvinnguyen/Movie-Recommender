@@ -1,7 +1,7 @@
 #include "../header/Movie.h"
 #include "../header/movieParse.h"
 #include "../header/genreSearch.h"
-#include "../header/directorSearch.h"
+#include "../header/actorSearch.h"
 
 #include <iostream>
 
@@ -14,8 +14,8 @@ int main() {
     // Example: Use GenreSearch to search for and print movies with a specific genre or subgenre
     GenreSearch genreSearch(movies);
     genreSearch.searchAndPrint("ACTION");
-    DirectorSearch directorSearch(movies);
-    directorSearch.searchAndPrint("Steven Spielberg");
+    ActorSearch actorSearch(movies);
+    actorSearch.searchAndPrint("Leonardo DiCaprio");
 
     return 0;
 }
