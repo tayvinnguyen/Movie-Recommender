@@ -8,6 +8,11 @@
 
 using namespace std;
 
+const std::vector<Movie>& MovieParse::getMovies() const {
+    return movies;
+}
+
+
 vector<Movie> MovieParse::parse(const string& filename) {
     movies.clear();  
 
