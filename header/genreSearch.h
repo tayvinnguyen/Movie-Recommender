@@ -9,13 +9,13 @@
 using namespace std;
 
 class GenreSearch {
+private:
+    const vector<Movie>& movieVector;
+
 public:
     GenreSearch(const vector<Movie>& movieVector);
 
     void searchAndPrint(const string& genreOrSubgenre) const;
-
-private:
-    const vector<Movie>& movieVector;
 };
 
 #endif //GENRESEARCH_H
