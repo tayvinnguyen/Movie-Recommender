@@ -20,13 +20,13 @@ void loginDatabase::loginExistingUser() {
             std::string fileUsername, filePassword;
             infile >> fileUsername >> filePassword;
             if (fileUsername == existingUsername && filePassword == existingPassword) {
-                std::cout << "Account found !";
+                std::cout << "\nAccount found !\n";
                 accountFlag = 1;
                 // go into user account
             }
         }
         if (accountFlag == 0) {
-                std::cout << "Account not found .";
+                std::cout << "\nAccount not found .\n";
         }
     } else {
         std::cout << "File failed to open ." << std::endl;
