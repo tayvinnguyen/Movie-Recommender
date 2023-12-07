@@ -14,7 +14,6 @@ void loginDatabase::loginExistingUser() {
 
     std::ifstream infile("userProfiles.txt");
 
-    // still needs a not found condition
     if (infile.is_open()) {
         int accountFlag = 0;
         while(!infile.eof()) {
@@ -23,7 +22,7 @@ void loginDatabase::loginExistingUser() {
             if (fileUsername == existingUsername && filePassword == existingPassword) {
                 std::cout << "Account found !";
                 accountFlag = 1;
-                // go into user accout
+                // go into user account
             }
         }
         if (accountFlag == 0) {
