@@ -8,6 +8,7 @@
 class MovieParse {
 public:
     std::vector<Movie> parse(const std::string& filename);
+    const std::vector<Movie>& getMovies() const; 
 
     ~MovieParse();
 
