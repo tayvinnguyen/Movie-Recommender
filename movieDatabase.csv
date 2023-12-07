@@ -1,0 +1,83 @@
+Title,Year,Genre,Subgenre,Cast,Directors,Rating
+Five Nights at Freddy's,2023,HORROR,MYSTERY,Josh Hutcherson;Elizabeth Lail;Matthew Liliard,Emma Tammi,5.5
+Top Gun: Maverick,2022,ACTION,DRAMA,Tom Cruise;Miles Teller;Glen Powell,Joseph Kosinski,8.3
+The Marvels,2023,ACTION,ADVENTURE,Brie Larson;Teyonah Parris;Iman Vellani,Nia DaCosta,6.0
+Oppenheimer,2023,DRAMA,HISTORY,Cillian Murphy;Emily Blunt;Matt Damon,Christopher Nolan,8.5
+Spider-Man: Across the Spider-Verse,2023,ANIMATION,ACTION,Shameik Moore;Hailee Steinfeld;Brian Tyree Henry,Joaquim Dos Santos,8.7
+Barbie,2023,COMEDY,ADVENTURE,Margot Robbie;Ryan Gosling;Issa Rae,Greta Gerwig,7.0
+The Hunger Games: The Ballad of Songbirds & Snakes,2023,ACTION,ADVENTURE,Rachel Zegler;Tom Blyth;Viola Davis,Francis Lawrence,7.2
+The Super Mario Bros. Movie,2023,ANIMATION,ADVENTURE,Chris Pratt;Anya Taylor-Joy;Charlie Day,Aaron Horvath,7.1
+Interstellar,2014,ADVENTURE,DRAMA,Matthew McConaughey;Anne Hathaway;Jessica Chastain,Christopher Nolan,8.7
+The Shawshank Redemption,1994,DRAMA,ACTION,Tim Robbins;Morgan Freeman;Bob Gunton,Frank Darabont,9.3
+Captain Marvel,2019,ACTION,ADVENTURE,Brie Larson;Samuel L. Jackson;Ben Mendelsohn,Anna Boden,6.8
+The Batman,2022,ACTION,DRAMA,Robert Pattinson;Zoë Kravitz;Jeffrey Wright,Matt Reeves,7.8
+The Wolf of Wall Street,2013,COMEDY,DRAMA,Leonardo DiCaprio;Jonah Hill;Margot Robbie,Martin Scorsese,8.2
+Whiplash,2014,DRAMA,MUSIC,Miles Teller;J.K. Simmons;Melissa Benoist,Damien Chazelle,8.5
+Dune,2021,ACTION,ADVENTURE,Timothée Chalamet;Rebecca Ferguson;Zendaya,Denis Villeneuve,8.0
+Guardians of the Galaxy Vol. 3,2023,ACTION,ADVENTURE,Chris Pratt;Chukwudi Iwuji;Bradley Cooper,James Gunn,7.9
+Guardians of the Galaxy Vol. 2,2017,ACTION,ADVENTURE,Chris Pratt;Zoe Saldana;Dave Bautista,James Gunn,7.6
+Guardians of the Galaxy,2014,ACTION,ADVENTURE,Chris Pratt;Vin Diesel;Bradley Cooper,James Gunn,8.0
+Inside Out,2015,ANIMATION,ADVENTURE,Amy Poehler;Bill Hader;Lewis Black,Pete Docter,8.1
+Pulp Fiction,1994,CRIME,DRAMA,John Travolta;Uma Thurman;Samuel L. Jackson,Quentin Tarantino,8.9
+Casablanca,1942,DRAMA,ROMANCE,Humphrey Bogart;Ingrid Bergman;Paul Henreid,Michael Curtiz,8.5
+Gone with the Wind,1939,DRAMA,ROMANCE,Clark Gable;Vivien Leigh;Thomas Mitchell,Victor Fleming,8.2
+The Wizard of Oz,1939,ADVENTURE,COMEDY,Judy Garland;Frank Morgan;Ray Bolger,Victor Fleming,8.1
+Psycho,1960,HORROR,MYSTERY,Anthony Perkins;Janet Leigh;Vera Miles,Alfred Hitchcock,8.5
+On the Waterfront,1954,CRIME,DRAMA,Marlon Brando;Karl Malden;Lee J. Cobb,Elia Kazan,8.1
+Sunset Blvd.,1950,DRAMA,ROMANCE,William Holden;Gloria Swanson;Erich von Stroheim,Billy Wilder,8.4
+Forrest Gump,1994,DRAMA,ROMANCE,Tom Hanks;Robin Wright;Gary Sinise,Robert Zemeckis,8.8
+West Side Story,1961,CRIME,DRAMA,Natalie Wood;George Chakiris;Richard Beymer,Jerome Robbins,7.6
+2001: A Space Odyssey,1968,SCIFI,ADVENTURE,Keir Dullea;Gary Lockwood;William Sylvester,Stanley Kubrick,8.3
+Star Wars: Episode VI - Return of the Jedi,1983,SCIFI,ADVENTURE,Mark Hamill;Harrison Ford;Carrie Fisher,Richard Marquand,8.3
+Star Wars: Episode V - The Empire Strikes Back,1980,SCIFI,ADVENTURE,Mark Hamill;Harrison Ford;Carrie Fisher,Irvin Kershner,8.7
+Star Wars: Episode IV - A New Hope,1977,SCIFI,ADVENTURE,Mark Hamill;Harrison Ford;Carrie Fisher,George Lucas,8.6
+Star Wars: Episode III - Revenge of the Sith,2005,SCIFI,ADVENTURE,Hayden Christensen;Natalie Portman;Ewan McGregor,George Lucas,7.6
+Star Wars: Episode II - Attack of the Clones,2002,SCIFI,ADVENTURE,Hayden Christensen;Natalie Portman;Ewan McGregor,George Lucas,6.6
+Star Wars: Episode I - The Phantom Menace,1999,SCIFI,ADVENTURE,Hayden Christensen;Natalie Portman;Ewan McGregor,George Lucas,6.5
+The Silence of the Lambs,1991,CRIME,DRAMA,Jodie Foster;Anthony Hopkins;Scott Glenn,Jonathan Demme,8.6
+E.T. the Extra-Terrestrial,1982,SCIFI,ADVENTURE,Henry Thomas;Drew Barrymore;Peter Coyote,Steven Spielberg,7.9
+The Lord of the Rings: The Return of the King,2003,ACTION,ADVENTURE,Elijah Wood;Viggo Mortensen;Ian McKellen,Peter Jackson,9.0
+The Lord of the Rings: The Two Towers,2002,ACTION,ADVENTURE,Elijah Wood;Viggo Mortensen;Ian McKellen,Peter Jackson,8.8
+The Lord of the Rings: The Fellowship of the Ring,2001,ACTION,ADVENTURE,Elijah Wood;Viggo Mortensen;Ian McKellen,Peter Jackson,8.8
+Gladiator,2000,ACTION,ADVENTURE,Russell Crowe;Joaquin Phoenix;Connie Nielsen,Ridley Scott,8.5
+Titanic,1997,DRAMA,ROMANCE,Leonardo DiCaprio;Kate Winslet;Billy Zane,James Cameron,7.9
+Avatar,2009,ACTION,ADVENTURE,Sam Worthington;Zoe Saldana;Sigourney Weaver,James Cameron,7.9
+Avatar: The Way of Water,2022,ACTION,ADVENTURE,Sam Worthington;Zoe Saldana;Sigourney Weaver,James Cameron,7.6
+Saving Private Ryan,1998,DRAMA,ACTION,Tom Hanks;Matt Damon;Tom Sizemore,Steven Spielberg,8.6
+Raiders of the Lost Ark,1981,ACTION,ADVENTURE,Harrison Ford;Karen Allen;Paul Freeman,Steven Spielberg,8.4
+Indiana Jones and the Temple of Doom,1984,ACTION,ADVENTURE,Harrison Ford;Kate Capshaw;Ke Huy Quan,Steven Spielberg,7.5
+Indiana Jones and the Last Crusade,1989,ACTION,ADVENTURE,Harrison Ford;Sean Connery;Alison Doody,Steven Spielberg,8.2
+Indiana Jones and the Kingdom of the Crystal Skull,2008,ACTION,ADVENTURE,Harrison Ford;Cate Blanchett;Shia LaBeouf,Steven Spielberg,6.2
+Jaws,1975,ADVENTURE,MYSTERY,Roy Scheider;Robert Shaw;Richard Dreyfuss,Steven Spielberg,8.1
+Jurassic Park,1993,SCIFI,ACTION,Sam Neill;Laura Dern;Jeff Goldblum,Steven Spielberg,8.2
+The Exorcist,1973,HORROR,DRAMA,Ellen Burstyn;Max von Sydow;Linda Blair,William Friedkin,8.1
+Goodfellas,1990,CRIME,DRAMA,Robert De Niro;Ray Liotta;Joe Pesci,Martin Scorsese,8.7
+All Quiet on the Western Front,1930,DRAMA,ACTION,Lew Ayres;Louis Wolheim;John Wray,Lewis Milestone,8.1
+Bonnie and Clyde,1967,CRIME,DRAMA,Warren Beatty;Faye Dunaway;Michael J. Pollard,Arthur Penn,7.7
+Rear Window,1954,MYSTERY,DRAMA,James Stewart;Grace Kelly;Wendell Corey,Alfred Hitchcock,8.5
+The God Father,1972,CRIME,DRAMA,Marlon Brando;Al Pacino;James Caan,Francis Ford Coppola,9.2
+The Dark Knight,2008,ACTION,CRIME,Christian Bale;Heath Ledger;Aaron Eckhart,Christopher Nolan,9.0
+12 Angry Men,1957,CRIME,DRAMA,Henry Fonda;Lee J. Cobb;Martin Balsam,Sidney Lumet,9.0
+Schindler's List,1993,BIOGRAPHY,DRAMA,Liam Neeson;Ralph Fiennes;Ben Kingsley,Steven Spielberg,9.0
+Forrest Gump,1994,DRAMA,ROMANCE,Tom Hanks;Robin Wright;Gary Sinise,Robert Zemeckis ,8.8
+Inception,2010,ACTION,ADVENTURE,Leonardo DiCaprio;Joseph Gordon-Levitt;Elliot Page,Christopher Nolan,8.8
+The Matrix,1999,ACTION,SCIFI,Keanu Reeves;Laurence Fishburne;Carrie-Anne Moss,Lana Wachowski,8.7
+Se7en,1995,CRIME,DRAMA,Morgan Freeman;Brad Pitt;Kevin Spacey,David Fincher,8.6
+Back to the Future,1985,ADVENTURE,COMEDY,Michael J. Fox;Christopher Lloyd;Lea Thompson,Robert Zemeckis,8.5
+Spirited Away,2001,ANIMATION,ADVENTURE,Daveigh Chase;Suzanne Pleshette;Miyu Irino,Hayao Miyazaki,8.6
+The Pianist,2002,BIOGRAPHY,DRAMA,Adrien Brody;Thomas Kretschmann;Frank Finlay,Roman Polanski,8.5
+WALL-E,2008,ANIMATION,ADVENTURE,Ben Burtt;Elissa Knight;Jeff Garlin,Andrew Stanton,8.4
+Joker,2019,CRIME,DRAMA,Joaquin Phoenix;Robert De Niro;Zazie Beetz,Todd Phillips,8.4
+Toy Story 3,2010,ANIMATION,ADVENTURE,Tom Hanks;Tim Allen;Joan Cusack,Lee Unkrich,8.3
+Up,2009,ANIMATION,ADVENTURE,Edward Asner;Jordan Nagai;John Ratzenberger,Pete Docter,8.3
+Shutter Island,2010,MYSTERY,THRILLER,Leonardo DiCaprio;Emily Mortimer;Mark Ruffalo,Martin Scorsese,8.2
+Finding Nemo,2003,ANIMATION,ADVENTURE,Albert Brooks;Ellen DeGeneres;Alexander Gould,Andrew Stanton,8.2
+China Town,1974,DRAMA,MYSTERY,Jack Nicholson;Faye Dunaway;John Huston,Roman Polanski,8.2
+12 Years a Slave,2013,BIOGRAPHY,DRAMA,Chiwetel Ejiofor;Michael Kenneth Williams;Michael Fassbender,Steve McQueen,8.1
+Gone Girl,2014,DRAMA,MYSTERY,Ben Affleck;Rosamund Pike;Neil Patrick Harris,David Fincher,8.1
+Monsters Inc.,2001,ANIMATION,ADVENTURE,Billy Crystal;John Goodman;Mary Gibbs,Pete Docter,8.1
+Logan,2017,ACTION,DRAMA,Hugh Jackman;Patrick Stewart;Dafne Keen,James Mangold,8.1
+The Kid,1921,COMEDY,ACTION,Charles Chaplin;Edna Purviance;Jackie Coogan,Charles Chaplin,8.2
+The Father,2020,DRAMA,MYSTERY,Anthony Hopkins;Olivia Colman;Mark Gatiss,Florian Zeller,8.2
+The Truman Show,1998,COMEDY,DRAMA,Jim Carrey;Ed Harris;Laura Linney,Peter Weir,8.2
+Aladdin,1992,ANIMATION,ADVENTURE,Scott Weinger;Robin Williams;Linda Larkin,Ron Clements,8.0

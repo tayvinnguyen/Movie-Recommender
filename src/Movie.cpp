@@ -9,7 +9,7 @@
 
 
 //Initialize Constructor
-Movie::Movie(std::string title, int year, std::string genre, std::string subGenre, std::string cast, std::string director, float rating){
+Movie::Movie(std::string title, int year, std::string genre, std::string subGenre, std::string cast, std::string director, double rating){
     this->title = title;
     this->year = year;
     this->genre = genre;
@@ -45,7 +45,7 @@ void Movie::setDirector(const std::string& newDirector){
     this->director = newDirector;
 }
 
-void Movie::setRating(float newRating){
+void Movie::setRating(double newRating){
     this->rating = newRating;
 }
 
@@ -79,7 +79,7 @@ std::string Movie::getDirector() const{
     return this->director;
 }
 
-float Movie::getRating() const{
+double Movie::getRating() const{
     return this->rating;
 }
 
