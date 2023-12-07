@@ -13,6 +13,7 @@ private:
     std::string director;
     double rating;
     int year;
+    int trendScore;
 
 
 public:
@@ -25,6 +26,7 @@ public:
     void setSubGenre(const std::string& newSubGenre);
     void setCast(const std::string& newCast);
     void setDirector(const std::string& newDirector);
+    void setTrendScore(int trendScore);
     void setRating(double newRating);
 
 
@@ -35,6 +37,7 @@ public:
     std::string getSubGenre() const;
     std::string getCast() const;
     std::string getDirector() const;
+    int getTrendScore() const;
     double getRating() const;
 
 

@@ -49,6 +49,9 @@ void Movie::setRating(double newRating){
     this->rating = newRating;
 }
 
+void Movie::setTrendScore(int trendScore) {
+    this->trendScore = trendScore;
+}
 
 
 //Getters
@@ -80,6 +83,9 @@ double Movie::getRating() const{
     return this->rating;
 }
 
+int Movie::getTrendScore() const{
+    return trendScore;
+}
 
 
 //Incorporate in display method
