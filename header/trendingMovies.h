@@ -11,6 +11,7 @@ class TrendingMovies {
         void addTrendingMovie(Movie m);
         TrendingMovies();
         ~TrendingMovies();
+        bool compareByScore(const Movie &a, const Movie &b);
 };
 
 

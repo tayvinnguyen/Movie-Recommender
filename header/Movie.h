@@ -13,6 +13,7 @@ private:
     std::string director;
     float rating;
     int year;
+    int trendScore;
 
 
 public:
@@ -26,6 +27,7 @@ public:
     void setCast(const std::string& newCast);
     void setDirector(const std::string& newDirector);
     void setRating(float newRating);
+    void setTrendScore(int trendScore);
 
 
     //Getters
@@ -36,6 +38,7 @@ public:
     std::string getCast() const;
     std::string getDirector() const;
     float getRating() const;
+    int getTrendScore() const;
 
 
 
