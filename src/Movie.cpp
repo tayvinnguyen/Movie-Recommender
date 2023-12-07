@@ -9,7 +9,7 @@
 
 
 //Initialize Constructor
-Movie::Movie(std::string title, int year, std::string genre, std::string subGenre, std::string cast, std::string director, double rating){
+Movie::Movie(std::string title, int year, std::string genre, std::string subGenre, std::string cast, std::string director, double rating, int trendScore){
     this->title = title;
     this->year = year;
     this->genre = genre;
@@ -17,6 +17,7 @@ Movie::Movie(std::string title, int year, std::string genre, std::string subGenr
     this->cast = cast;
     this->director = director;
     this->rating = rating;
+    this->trendScore = trendScore;
 }
 
 

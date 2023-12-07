@@ -1,5 +1,6 @@
 #include "../header/Movie.h"
 #include "../header/movieParse.h"
+#include "../header/CalculateTrendScore.h"
 
 #include <iostream>
 #include <fstream>
@@ -43,7 +44,10 @@ vector<Movie> MovieParse::parse(const string& filename) {
 
         //set each movie attribute
         if (tokens.size() == 7) {
-            Movie movie(tokens[0], stoi(tokens[1]), tokens[2], tokens[3], tokens[4], tokens[5], stod(tokens[6]));
+            //set trend score for each movie
+            CalculateTrendScore movieScore;
+            int trendScore = movieScore.calcTrendScore(stoi(tokens[1]), stod(tokens[6]));
+            Movie movie(tokens[0], stoi(tokens[1]), tokens[2], tokens[3], tokens[4], tokens[5], stod(tokens[6]), trendScore);
             movies.push_back(movie);
         } else {
             cerr << "Invalid number of columns in line: " << line << endl;

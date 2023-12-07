@@ -5,9 +5,9 @@ class Movie;
 
 class CalculateTrendScore {
     public:
-        int calcYearScore(Movie movie);
-        int calcRatingScore(Movie movie);
-        int calcTrendScore(Movie movie);
+        int calcYearScore(int year);
+        int calcRatingScore(double rating);
+        int calcTrendScore(int currYear, double currRating);
 };
 
 #endif

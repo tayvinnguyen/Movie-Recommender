@@ -17,7 +17,7 @@ private:
 
 
 public:
-    Movie(std::string title, int year, std::string genre, std::string subGenre, std::string cast, std::string director, double rating);
+    Movie(std::string title, int year, std::string genre, std::string subGenre, std::string cast, std::string director, double rating, int trendScore);
 
     //Setters
     void setTitle(const std::string& newTitle);
