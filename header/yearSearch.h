@@ -7,13 +7,13 @@
 #include <string>
 
 class YearSearch {
+private:
+    const std::vector<Movie>& movieVector;
+
 public:
     YearSearch(const std::vector<Movie>& movieVector);
 
     void searchAndPrint(const std::string& decade) const;
-
-private:
-    const std::vector<Movie>& movieVector;
 };
 
 #endif  // YEAR_SEARCH_H
