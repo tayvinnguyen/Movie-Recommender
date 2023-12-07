@@ -1,6 +1,7 @@
 #ifndef MOVIEPARSE_H
 #define MOVIEPARSE_H
 
+#include "../header/Movie.h"
 #include <vector>
 #include <string>
 

@@ -53,14 +53,3 @@ vector<Movie> MovieParse::parse(const string& filename) {
 MovieParse::~MovieParse() {
     movies.clear();
 }
-
-int main() {
-    MovieParse csvParser;
-    vector<Movie> movies = csvParser.parse("movieDatabase.csv");
-
-    for (const auto& movie : movies) {
-        cout << "Title: " << movie.getTitle() << ", Cast: " << movie.getCast() << endl;
-    }
-
-    return 0;
-}
