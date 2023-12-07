@@ -21,10 +21,10 @@ void movieRecSystem::accountValidation() {
         inputValidation();
 
         if (userChoice == 1)
-            continue;
+            loginDBO.createUserAccount();
 
         else if (userChoice == 2)
-            continue;
+            loginDBO.loginExistingUser();
 
         else if (userChoice == 3)
             return;
@@ -35,5 +35,9 @@ void movieRecSystem::accountValidation() {
 }
 
 void movieRecSystem::inputValidation() {
-    
+    if (std::cin.fail()) {
+        std::cout << "You did not enter an integer .\n";
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    }
 }
