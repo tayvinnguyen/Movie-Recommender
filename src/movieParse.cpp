@@ -36,7 +36,7 @@ vector<Movie> MovieParse::parse(const string& filename) {
             tokens.push_back(token);
         }
 
-        // set each movie attribute
+        //set each movie attribute
         if (tokens.size() == 7) {
             Movie movie(tokens[0], stoi(tokens[1]), tokens[2], tokens[3], tokens[4], tokens[5], stod(tokens[6]));
             movies.push_back(movie);
