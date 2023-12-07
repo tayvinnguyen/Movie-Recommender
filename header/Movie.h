@@ -11,12 +11,12 @@ private:
     std::string subGenre;
     std::string cast;
     std::string director;
-    float rating;
+    double rating;
     int year;
 
 
 public:
-    Movie(std::string title, int year, std::string genre, std::string subGenre, std::string cast, std::string director, float rating);
+    Movie(std::string title, int year, std::string genre, std::string subGenre, std::string cast, std::string director, double rating);
 
     //Setters
     void setTitle(const std::string& newTitle);
@@ -25,7 +25,7 @@ public:
     void setSubGenre(const std::string& newSubGenre);
     void setCast(const std::string& newCast);
     void setDirector(const std::string& newDirector);
-    void setRating(float newRating);
+    void setRating(double newRating);
 
 
     //Getters
@@ -35,7 +35,7 @@ public:
     std::string getSubGenre() const;
     std::string getCast() const;
     std::string getDirector() const;
-    float getRating() const;
+    double getRating() const;
 
 
 
