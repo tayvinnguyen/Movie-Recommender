@@ -23,4 +23,18 @@ ADD_EXECUTABLE(movieRecTest
     src/RatingSort.cpp
 )
 
+ADD_EXECUTABLE(unitTest
+
+    test/TayvinN_tests.cpp
+    src/genreSearch.cpp
+    src/Movie.cpp
+    src/movieParse.cpp
+    src/CalculateTrendScore.cpp
+    src/yearSearch.cpp
+    src/topTrendMovies.cpp
+    src/UserAccount.cpp
+)
+
 TARGET_LINK_LIBRARIES(movieRecTest gtest gtest_main)
+TARGET_LINK_LIBRARIES(unitTest gtest gtest_main)
+
