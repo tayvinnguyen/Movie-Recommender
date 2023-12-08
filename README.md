@@ -23,37 +23,9 @@ For this system, we are implementing a simple authentication/login menu along wi
 
 ![UML Diagram with SOLID Principles Applied](UML-Diagram-SOLID.png)
 This updated UML diagram applies the points that were mentioned during our TA scrum meeting as well as implements the Single-Responsibility principle of the SOLID principles. In order to apply the solid principle, two classes were added: the loginDatabase as well as the Movie Search class. Before, the user account was responsible for validating the user account information from the starting interface, or movieRecSystem class; with the inclusion of the loginDatabase, the new class facilitates the login validation from the starting interface and then sends the user to their account. The Movie Search class aims to do something similar by relieving the Movie Database class from having to perform specific search operations on the database. The Single-Responsibility principle aims to isolate changes on the system and reduce the impact bugs if they were to occur.
-
- > ## Phase III
- > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on Zoom and should be conducted by Wednesday of week 8.
  
- > BEFORE the meeting you should do the following:
- > * Update your class diagram from Phase II to include any feedback you received from your TA/grader.
- > * Considering the SOLID design principles, reflect back on your class diagram and think about how you can use the SOLID principles to improve your design. You should then update the README.md file by adding the following:
- >   * A new class diagram incorporating your changes after considering the SOLID principles.
- >   * For each update in your class diagram, you must explain in 3-4 sentences:
- >     * What SOLID principle(s) did you apply?
- >     * How did you apply it? i.e. describe the change.
- >     * How did this change help you write better code?
- > * Perform a new sprint plan like you did in Phase II.
- > * You should also make sure that your README file (and Project board) are up-to-date reflecting the current status of your project and the most recent class diagram. Previous versions of the README file should still be visible through your commit history.
- 
-> During the meeting with your reader you will discuss: 
- > * How effective your last sprint was (each member should talk about what they did)
- > * Any tasks that did not get completed last sprint, and how you took them into consideration for this sprint
- > * Any bugs you've identified and created issues for during the sprint. Do you plan on fixing them in the next sprint or are they lower priority?
- > * What tasks you are planning for this next sprint.
-
- 
- > ## Final deliverable
- > All group members will give a demo to the reader during lab time. ou should schedule your demo on Calendly with the same reader who took your second scrum meeting. The reader will check the demo and the project GitHub repository and ask a few questions to all the team members. 
- > Before the demo, you should do the following:
- > * Complete the sections below (i.e. Screenshots, Installation/Usage, Testing)
- > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Project board.
- > * Make sure your README file and Project board are up-to-date reflecting the current status of your project (e.g. any changes that you have made during the project such as changes to your class diagram). Previous versions should still be visible through your commit history. 
- 
- ## Screenshots
- > Screenshots of the input/output after running your application
+## Screenshots
+Screenshots of the input/output after running your application
 ![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/4dee9ccb-df51-441e-88a5-de1b776c54cf)
 ![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/68fbcf71-ef9e-415d-b417-c81c3af4afb0)
 ![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/9139a5fe-88d6-4228-a7a3-a8d5ac59d40d)
@@ -64,9 +36,10 @@ This updated UML diagram applies the points that were mentioned during our TA sc
 ![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/ea449cff-54a7-4419-904b-800ec02f3c21)
 ![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/18cd9c2c-0497-4f19-b134-ed5b9406fdd4)
 
- ## Installation/Usage
- > Instructions on installing and running your application
+## Installation/Usage
+Instructions on installing and running your application
 There are no installations needed to run our application. To run, build with cmake . and make, then run the executable ./movieRecTest. The program will continue to run and capture user input until the user is logged out and chooses to exit the program. User has the option to create a new account or log into an existing one. Once logged in, the user can choose to list the current trending movies, and search by release date, director, actor, or genre. There is also an option to view the top rated movies in the database as well as logout. The first option will list the ten movies in the database with the highest trending score that has been calculated based on release date and rating. The following search choices will all print 3 randomly chosen movies from the database that fit the search. Searching by release date will prompt the user for a desired decade between 1920 and 2020 and will output 3 movies from that decade. Search by director and by actor will prompt for them respectively and output the same way. Search by genre will prompt the user to choose from 12 different possible genres and output three movies with that genre as their genre or subgenre. Choosing to view the top rated movies will output the top 10 highest rate movies in the database, and logout is straightforward. Once logged out the user has the same 3 options as in the beginning.
- ## Testing
- > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
+
+## Testing
+How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
  

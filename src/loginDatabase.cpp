@@ -50,6 +50,9 @@ void loginDatabase::createUserAccount() {
     std::cout << "Enter a new Username: ";
     std::cin >> newUsername;
 
+    // writing account to file
+    std::ofstream outfile("userProfiles.txt", std::ios::app);
+
     // checking for repeat usernames
     std::ifstream infile("userProfiles.txt");
 
@@ -74,9 +77,6 @@ void loginDatabase::createUserAccount() {
 
     std::cout << "Enter a new Password: ";
     std::cin >> newPassword;
-
-    // writing account to file
-    std::ofstream outfile("userProfiles.txt", std::ios::app);
 
     if (outfile.is_open()) {
         outfile << newUsername << " " << newPassword << std::endl;
