@@ -1,5 +1,8 @@
+#ifndef RATINGSORT_H
+#define RATINGSORT_H
 #include <iostream>
 #include <vector>
+using namespace std;
 
 class Movie;
 
@@ -11,3 +14,5 @@ class RatingSort {
     private:
         const vector<Movie>& movieVector;
 };
+
+#endif
