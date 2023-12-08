@@ -23,6 +23,8 @@ For this system, we are implementing a simple authentication/login menu along wi
 
 ![UML Diagram with SOLID Principles Applied](UML-Diagram-SOLID.png)
 This updated UML diagram applies the points that were mentioned during our TA scrum meeting as well as implements the Single-Responsibility principle of the SOLID principles. In order to apply the solid principle, two classes were added: the loginDatabase as well as the Movie Search class. Before, the user account was responsible for validating the user account information from the starting interface, or movieRecSystem class; with the inclusion of the loginDatabase, the new class facilitates the login validation from the starting interface and then sends the user to their account. The Movie Search class aims to do something similar by relieving the Movie Database class from having to perform specific search operations on the database. The Single-Responsibility principle aims to isolate changes on the system and reduce the impact bugs if they were to occur.
+
+![UML Diagram for Final Deliverable](UML-Diagram-Final-Deliverable.png)
  
 ## Screenshots
 Screenshots of the input/output after running your application
