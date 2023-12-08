@@ -17,21 +17,19 @@ void UserAccount::startUserSession() {
         displayMenu();
         userChoice = getUserChoice();
         executeUserChoice(userChoice);
-    } while (userChoice != '5');
+    } while (userChoice != '6');
 }
 
 //displays all the choices for user
 void UserAccount::displayMenu() const {
-    TopTrendMovies topTrendMovies(movieVector);
-    topTrendMovies.printTopTrendMovies();
-    
     cout << "User Menu:" << endl;
-    cout << "1. Search by Release Date" << endl;
-    cout << "2. Search by Director" << endl;
-    cout << "3. Search by Actor" << endl;
-    cout << "4. Search by Genre" << endl;
-    cout << "5. Logout" << endl;
-    cout << "Choose an option (1-5): ";
+    cout << "1. List Trending Movies" << endl;
+    cout << "2. Search by Release Date" << endl;
+    cout << "3. Search by Director" << endl;
+    cout << "4. Search by Actor" << endl;
+    cout << "5. Search by Genre" << endl;
+    cout << "6. Logout" << endl;
+    cout << "Choose an option (1-6): ";
 }
 
 //takes in the user's choice
@@ -45,6 +43,12 @@ char UserAccount::getUserChoice() const {
 void UserAccount::executeUserChoice(char choice) {
     switch (choice) {
         case '1':
+            {
+                TopTrendMovies topTrendMovies(movieVector);
+                topTrendMovies.printTopTrendMovies();
+            }
+            break;
+        case '2':
             {
                 // Search by Release Date
                 string decade;
@@ -62,7 +66,7 @@ void UserAccount::executeUserChoice(char choice) {
                 yearSearch.searchAndPrint(decade);
             }
             break;
-        case '2':
+        case '3':
             {
                 // Search by Director
                 string directorName;
@@ -79,7 +83,7 @@ void UserAccount::executeUserChoice(char choice) {
                 directorSearch.searchAndPrint(directorName);
             }
             break;
-        case '3':
+        case '4':
             {
                 // Search by Actor
                 string actorName;
@@ -96,7 +100,7 @@ void UserAccount::executeUserChoice(char choice) {
                 actorSearch.searchAndPrint(actorName);
             }
             break;
-        case '4':
+        case '5':
             {
                 // Search by Genre
                 int genreNumber;
@@ -160,7 +164,7 @@ void UserAccount::executeUserChoice(char choice) {
                 }
             }
             break;
-        case '5':
+        case '6':
             cout << "Logging out..." << endl;
             break;
         default:
