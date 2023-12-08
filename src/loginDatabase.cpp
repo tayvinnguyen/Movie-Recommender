@@ -1,4 +1,6 @@
 #include "../header/loginDatabase.h"
+#include "../header/movieParse.h"
+#include "../header/UserAccount.h"
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -23,7 +25,11 @@ void loginDatabase::loginExistingUser() {
             if (fileUsername == existingUsername && filePassword == existingPassword) {
                 std::cout << "\nAccount found !\n";
                 accountFlag = 1;
-                // go into user accout
+                // go into user account
+                MovieParse csvParser;
+                vector<Movie> movies = csvParser.parse("movieDatabase.csv");
+                UserAccount currentUser(movies);
+                currentUser.startUserSession();
             }
         }
         if (accountFlag == 0) {
