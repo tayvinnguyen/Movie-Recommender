@@ -5,8 +5,8 @@
 ## Project Description
 
  * This is important to people that are struggling with deciding on a particular movie and don't know where start.
- * Languages and tool we will be using is C++, Visual Studio Code
- * The inputs of our project from the user will be along the lines of movie genres, movie ratings, age of user, profiles, etc. Outputs will be a list of recommended movies according to the user's interests.
+ * Languages and tool we will be using is C++, CMake, Visual Studio Code
+ * The inputs of our project from the user will be along the lines of movie genres, movie ratings, profiles, etc. Outputs will be a list of recommended movies according to the user's interests.
  * The features that this project provides is giving users the option to search for movies via different filters or they can view the top trending movies that the system recommends. This project will have a catalog of movies that can be narrowed down using multiple different filters such as the genre, release date of the movie, ratings, actors, directors. Movies can also be sorted according to the filters.
 
 
