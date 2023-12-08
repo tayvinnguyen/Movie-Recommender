@@ -1,4 +1,5 @@
 #include "../header/UserAccount.h"
+#include "../header/topTrendMovies.h"
 #include <iostream>
 #include <limits>
 #include <algorithm>
@@ -21,6 +22,9 @@ void UserAccount::startUserSession() {
 
 //displays all the choices for user
 void UserAccount::displayMenu() const {
+    TopTrendMovies topTrendMovies(movieVector);
+    topTrendMovies.printTopTrendMovies();
+    
     cout << "User Menu:" << endl;
     cout << "1. Search by Release Date" << endl;
     cout << "2. Search by Director" << endl;
