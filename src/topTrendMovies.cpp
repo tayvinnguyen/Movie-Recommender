@@ -19,7 +19,6 @@ void TopTrendMovies::printTopTrendMovies() const {
     // print top ten highest scored movies
     cout << "Top Trending Movies:" << endl;
     for (size_t i = 0; i < min(sortedMovies.size(), static_cast<size_t>(10)); ++i) {
-        cout << i + 1 << ". " << sortedMovies[i].getTitle() << " (Trend Score: "
-             << sortedMovies[i].getTrendScore() << ")" << endl;
+        cout << i + 1 << ". " << sortedMovies[i].getTitle() << endl;
     }
 }
