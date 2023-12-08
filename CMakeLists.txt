@@ -7,6 +7,7 @@ ADD_SUBDIRECTORY(googletest)
 
 
 ADD_EXECUTABLE(test
+
     src/actorSearch.cpp
     src/CalculateTrendScore.cpp
     src/directorSearch.cpp
