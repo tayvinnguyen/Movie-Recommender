@@ -7,7 +7,8 @@
  * This is important to people that are struggling with deciding on a particular movie and don't know where start.
  * Languages and tool we will be using is C++, Visual Studio Code
  * The inputs of our project from the user will be along the lines of movie genres, movie ratings, age of user, profiles, etc. Outputs will be a list of recommended movies according to the user's interests.
- * The features that this project provides is recommending shows or movies that are of most interest and popular shows etc. This project will have a catalog of movies that can be narrowed down using mulitple different filters such as the genre, age-appropriate movies, how old the movie is, ratings, actors, directors, etc. Movies can also be sorted according to the filters. Users can use the search within the terminal to input specific movies and our program will take the input of the user and perform a search based on our external movie database, our application will recommend other movies in the same genre or movies with the same actor. 
+ * The features that this project provides is giving users the option to search for movies via different filters or they can view the top trending movies that the system recommends. This project will have a catalog of movies that can be narrowed down using multiple different filters such as the genre, release date of the movie, ratings, actors, directors. Movies can also be sorted according to the filters.
+
 
 ## User Interface Specification
 
