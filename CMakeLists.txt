@@ -23,4 +23,4 @@ ADD_EXECUTABLE(movieRecTest
     src/RatingSort.cpp
 )
 
-TARGET_LINK_LIBRARIES(test gtest gtest_main)
+TARGET_LINK_LIBRARIES(movieRecTest gtest gtest_main)
