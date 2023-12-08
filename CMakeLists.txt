@@ -60,9 +60,20 @@ ADD_EXECUTABLE(unitTest
     src/topTrendMovies.cpp
 )
 
+ADD_EXECUTABLE(ratingAndTrendingTest
+
+    test/RatingAndTrendingTests.cpp
+    src/RatingSort.cpp
+    src/Movie.cpp
+    src/movieParse.cpp
+    src/CalculateTrendScore.cpp
+    src/topTrendMovies.cpp
+)
+
 TARGET_LINK_LIBRARIES(movieRecTest gtest gtest_main)
 TARGET_LINK_LIBRARIES(actorSearchTest gtest gtest_main)
 TARGET_LINK_LIBRARIES(directorSearchTest gtest gtest_main)
 TARGET_LINK_LIBRARIES(MovieTest gtest gtest_main)
 TARGET_LINK_LIBRARIES(unitTest gtest gtest_main)
+TARGET_LINK_LIBRARIES(ratingAndTrendingTest gtest gtest_main)
 
