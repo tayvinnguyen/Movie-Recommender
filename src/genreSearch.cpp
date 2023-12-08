@@ -32,8 +32,8 @@ void GenreSearch::searchAndPrint(const string& genreOrSubgenre) const {
     shuffle(matchingMovies.begin(), matchingMovies.end(), g);
 
     //print 3 matching movies
-    for (int i = 0; i < 3; ++i) {
-        const auto& movie = matchingMovies[i];
-        cout << "Title: " << movie.getTitle() << ", Genre: " << movie.getGenre() << ", Subgenre: " << movie.getSubGenre() << endl;
-    }
+    for (int i = 0; i < min(3, static_cast<int>(matchingMovies.size())); ++i) {
+    const auto& movie = matchingMovies[i];
+    cout << "Title: " << movie.getTitle() << ", Genre: " << movie.getGenre() << ", Subgenre: " << movie.getSubGenre() << endl;
+}
 }
