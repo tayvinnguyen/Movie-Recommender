@@ -7,6 +7,7 @@
 #include "../header/genreSearch.h"
 #include "../header/actorSearch.h"
 #include "../header/directorSearch.h"
+#include "../header/RatingSort.h"
 #include "../header/genre.hpp"
 #include <iostream>
 

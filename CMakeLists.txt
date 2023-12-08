@@ -20,6 +20,7 @@ ADD_EXECUTABLE(test
     src/topTrendMovies.cpp
     src/UserAccount.cpp
     src/yearSearch.cpp
+    src/RatingSort.cpp
 )
 
 TARGET_LINK_LIBRARIES(test gtest gtest_main)

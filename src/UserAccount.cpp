@@ -17,7 +17,7 @@ void UserAccount::startUserSession() {
         displayMenu();
         userChoice = getUserChoice();
         executeUserChoice(userChoice);
-    } while (userChoice != '5');
+    } while (userChoice != '6');
 }
 
 //displays all the choices for user
@@ -30,8 +30,9 @@ void UserAccount::displayMenu() const {
     cout << "2. Search by Director" << endl;
     cout << "3. Search by Actor" << endl;
     cout << "4. Search by Genre" << endl;
-    cout << "5. Logout" << endl;
-    cout << "Choose an option (1-5): ";
+    cout << "5. View Top Rated Movies" << endl;
+    cout << "6. Logout" << endl;
+    cout << "Choose an option (1-6): ";
 }
 
 //takes in the user's choice
@@ -161,6 +162,12 @@ void UserAccount::executeUserChoice(char choice) {
             }
             break;
         case '5':
+            {
+                RatingSort topRatedMovies(movieVector);
+                topRatedMovies.printRatingMovies();
+            }
+            break;
+        case '6':
             cout << "Logging out..." << endl;
             break;
         default:
