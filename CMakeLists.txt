@@ -32,7 +32,6 @@ ADD_EXECUTABLE(unitTest
     src/CalculateTrendScore.cpp
     src/yearSearch.cpp
     src/topTrendMovies.cpp
-    src/UserAccount.cpp
 )
 
 TARGET_LINK_LIBRARIES(movieRecTest gtest gtest_main)
