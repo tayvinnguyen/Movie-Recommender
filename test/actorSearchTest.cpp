@@ -2,16 +2,32 @@
 #include "../header/actorSearch.h"
 
 
+//Movie database for testing
+MovieParse csvParser;
+std::vector<Movie> movies = csvParser.parse("movieDatabase.csv");
 
-TEST(ActorSearchTest, FindCorrectMoviesForActor) {
-    vector<Movie> expectedMovies = { movieVector[0], movieVector[2] }; // Expected movies for Actor1
-    vector<Movie> foundMovies = actorSearch->findMoviesByActor("Actor1");
 
-    ASSERT_EQ(foundMovies.size(), expectedMovies.size());
-    for (size_t i = 0; i < expectedMovies.size(); i++) {
-        EXPECT_EQ(foundMovies[i].getTitle(), expectedMovies[i].getTitle());
-    }
+TEST(ActorTests, testEmptyActor) {
+    std::string actor = "";
+    ActorSearch actorSearch(movies);
+    std::stringstream buffer;
+    std::streambuf* oldCout = std::cout.rdbuf(buffer.rdbuf());
+    actorSearch.searchAndPrint(actor);
+    std::cout.rdbuf(oldCout);
+    std::string output = buffer.str();
+    EXPECT_EQ(output, "");
+
 }
 
+TEST(ActorTests, testValidActor) {
+    std::string actor = "Ben Burtt";
+    ActorSearch actorSearch(movies);
+    std::stringstream buffer;
+    std::streambuf* oldCout = std::cout.rdbuf(buffer.rdbuf());
+    actorSearch.searchAndPrint(actor);
+    std::cout.rdbuf(oldCout);
+    std::string output = buffer.str();
+    EXPECT_EQ(output, "Title: WALL-E, Cast: Ben Burtt;Elissa Knight;Jeff Garlin\n");
+}
 
 
