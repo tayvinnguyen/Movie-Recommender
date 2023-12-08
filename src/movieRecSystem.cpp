@@ -1,5 +1,5 @@
 #include "../header/movieRecSystem.h"
-#include "loginDatabase.cpp"
+#include "../header/loginDatabase.h"
 #include <iostream>
 #include <fstream>
 #include <string>

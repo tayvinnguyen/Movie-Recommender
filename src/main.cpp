@@ -1,13 +1,10 @@
-#include "../header/UserAccount.h"
+#include "../header/movieRecSystem.h"
 
 using namespace std;
 
 int main() {
-    MovieParse csvParser;
-    vector<Movie> movies = csvParser.parse("movieDatabase.csv");
-
-    UserAccount userAccount(movies);
-    userAccount.startUserSession();
+    movieRecSystem start;
+    start.accountValidation();
 
     return 0;
 }
