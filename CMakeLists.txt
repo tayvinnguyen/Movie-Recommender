@@ -23,4 +23,34 @@ ADD_EXECUTABLE(movieRecTest
     src/RatingSort.cpp
 )
 
-TARGET_LINK_LIBRARIES(test gtest gtest_main)
+
+ADD_EXECUTABLE(actorSearchTest
+    test/actorSearchTest.cpp
+    src/actorSearch.cpp
+    src/Movie.cpp
+    src/movieParse.cpp
+    src/CalculateTrendScore.cpp
+)
+
+ADD_EXECUTABLE(directorSearchTest
+    test/directorSearchTest.cpp
+    src/directorSearch.cpp
+    src/Movie.cpp
+    src/movieParse.cpp
+    src/CalculateTrendScore.cpp
+    
+)
+
+
+ADD_EXECUTABLE(MovieTest
+    test/MovieTest.cpp
+    src/Movie.cpp
+   
+  
+    
+)
+
+TARGET_LINK_LIBRARIES(movieRecTest gtest gtest_main)
+TARGET_LINK_LIBRARIES(actorSearchTest gtest gtest_main)
+TARGET_LINK_LIBRARIES(directorSearchTest gtest gtest_main)
+TARGET_LINK_LIBRARIES(MovieTest gtest gtest_main)

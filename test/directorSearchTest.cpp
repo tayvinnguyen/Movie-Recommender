@@ -14,7 +14,7 @@ std::vector<Movie> movies = csvParser.parse("movieDatabase.csv");
 
 
 
-TEST(ActorTests, testEmptyActor) {
+TEST(DirectorTests, testEmptyActor) {
     std::string director = "";
     DirectorSearch directorSearch(movies);
     std::stringstream buffer;
@@ -25,7 +25,7 @@ TEST(ActorTests, testEmptyActor) {
     EXPECT_EQ(output, "");
 }
 
-TEST(ActorTests, testValidActor) {
+TEST(DirectorTests, testValidActor) {
     std::string director = "Todd Phillips";
     DirectorSearch directorSearch(movies);
     std::stringstream buffer;
