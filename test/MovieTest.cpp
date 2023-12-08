@@ -35,3 +35,5 @@ TEST(MovieTests, setMovieGenre){
     EXPECT_EQ(object.getGenre(), "ANIMATION");
 
 }
+
+
