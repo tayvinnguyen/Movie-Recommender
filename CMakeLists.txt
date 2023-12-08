@@ -37,3 +37,4 @@ ADD_EXECUTABLE(unitTest
 
 TARGET_LINK_LIBRARIES(movieRecTest gtest gtest_main)
 TARGET_LINK_LIBRARIES(unitTest gtest gtest_main)
+
