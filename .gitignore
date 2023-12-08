@@ -3,3 +3,6 @@ cmake_install.cmake
 lib/
 CMakeCache.txt
 CMakeFiles/
+actorSearchTest
+directorSearchTest
+movieRecTest
