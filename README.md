@@ -54,8 +54,19 @@ This updated UML diagram applies the points that were mentioned during our TA sc
  
  ## Screenshots
  > Screenshots of the input/output after running your application
+![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/4dee9ccb-df51-441e-88a5-de1b776c54cf)
+![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/68fbcf71-ef9e-415d-b417-c81c3af4afb0)
+![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/9139a5fe-88d6-4228-a7a3-a8d5ac59d40d)
+![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/58d86200-52e8-4d89-9903-ba88c86fd136)
+![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/29216ec7-6d9f-42fe-80f3-07a9d8e54aad)
+![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/9a0989ad-f96a-4ca3-bd05-31e4099532e5)
+![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/ce92a8c2-8be6-49d7-bb8c-6be39c940697)
+![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/ea449cff-54a7-4419-904b-800ec02f3c21)
+![image](https://github.com/cs100/final-project-tnguy031-rpham037-aback005-tnguy029/assets/147117355/18cd9c2c-0497-4f19-b134-ed5b9406fdd4)
+
  ## Installation/Usage
  > Instructions on installing and running your application
+There are no installations needed to run our application. To run, build with cmake . and make, then run the executable ./movieRecTest. The program will continue to run and capture user input until the user is logged out and chooses to exit the program. User has the option to create a new account or log into an existing one. Once logged in, the user can choose to list the current trending movies, and search by release date, director, actor, or genre. There is also an option to view the top rated movies in the database as well as logout. The first option will list the ten movies in the database with the highest trending score that has been calculated based on release date and rating. The following search choices will all print 3 randomly chosen movies from the database that fit the search. Searching by release date will prompt the user for a desired decade between 1920 and 2020 and will output 3 movies from that decade. Search by director and by actor will prompt for them respectively and output the same way. Search by genre will prompt the user to choose from 12 different possible genres and output three movies with that genre as their genre or subgenre. Choosing to view the top rated movies will output the top 10 highest rate movies in the database, and logout is straightforward. Once logged out the user has the same 3 options as in the beginning.
  ## Testing
  > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
  
